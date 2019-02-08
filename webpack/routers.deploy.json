@@ -1,0 +1,8 @@
+{
+  "routers": [{
+    "name": "index",
+    "entry": "./entry.jsx",
+    "template": "./template.deploy.html",
+    "filename": "index.html"
+  }]
+}
