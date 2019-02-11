@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "rm -rf dist/",
     "dev": " webpack-dev-server --port 8080 --progress --colors --display-error-details --inline --hot --content-base test/build --config webpack/webpack.dev.config.js",
-    "deploy": "npm run clean && NODE_ENV=production webpack --progress -p --display-error-details --config webpack/webpack.deploy.config.js"
+    "deploy": "npm run clean && NODE_ENV=production webpack --progress -p --display-error-details --config webpack/webpack.deploy.config.js",
+    "analyzer": "npm run clean && NODE_ENV=production webpack --progress -p --display-error-details --config webpack/webpack.analyzer.config.js"
   },
   "repository": {
     "type": "git",
